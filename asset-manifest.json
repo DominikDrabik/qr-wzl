@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/qr-wzl/static/css/main.d940f5d9.css",
+    "main.js": "/qr-wzl/static/js/main.48cc6c82.js",
+    "index.html": "/qr-wzl/index.html",
+    "main.d940f5d9.css.map": "/qr-wzl/static/css/main.d940f5d9.css.map",
+    "main.48cc6c82.js.map": "/qr-wzl/static/js/main.48cc6c82.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d940f5d9.css",
+    "static/js/main.48cc6c82.js"
+  ]
+}
