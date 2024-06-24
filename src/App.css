@@ -1,0 +1,60 @@
+.App{
+  text-align: center;
+  --container-height: 100vh;
+  --container-width: 100%;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.container {
+  margin: auto;
+  height: var(--container-height);
+  /* flex-direction: column; */
+  padding: 5%;
+  padding-top: 10%;
+  box-sizing: border-box;
+  overflow: auto;
+  width: var(--container-width);
+  max-height: var(--container-width);
+
+
+  justify-content: center;
+  align-items: center;
+}
+
+.container > #reader {
+  max-width: calc(var(--container-height));
+  flex: 1;
+  object-fit: contain;
+  padding: auto;
+  margin: auto;
+}
+
+
+#navbar{
+  position: absolute;
+  box-sizing: border-box;
+  height: 8vh;
+  width: 100%;
+  background: linear-gradient(to right,rgb(157, 157, 245),  #00008B, #171769,rgb(88, 88, 219));  
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px){
+  .container{
+    padding-top: 45%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .container{
+    padding: 0;
+    padding-top: 35%;
+  }
+}
